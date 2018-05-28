@@ -1,10 +1,13 @@
 # ols1clk
 ========
 
-Description
+Açıklamalar
 --------
 
-ols1clk is a one-click installation script for OpenLiteSpeed. Using this script, you can quickly and easily install OpenLiteSpeed with it’s default settings. We also provide a **-w** parameter that will install WordPress at the same time but it must still be configured through the wp-config.php page. An openmysql database can also be set up using this script if needed. If you already have a WordPress installation running on another server, it can be imported into OpenLiteSpeed with no hassle using the **--wordpresspath** parameter. To completely install WordPress with your OpenLiteSpeed installation, skipping the need for the wp-config.php page, use the **--wordpressplus** flag. This can be used with **--wpuser**, **--wppassword**, **--wplang**, and **--sitetitle** to configure each of the settings normally set by wp-config.php.
+
+ols1clk tek tuşla OpenLiteSpeed kurulumu ypaan bir bash scriptidir. Bu script ile OpenLiteSpeed kurulumu kolayca gerçekleştirebilirsiniz.Ayrıca sisteme eklenen **-w** opsiyonu ile wordpress kurulumu da yapabilirsiniz.
+
+An openmysql database can also be set up using this script if needed. If you already have a WordPress installation running on another server, it can be imported into OpenLiteSpeed with no hassle using the **--wordpresspath** parameter. To completely install WordPress with your OpenLiteSpeed installation, skipping the need for the wp-config.php page, use the **--wordpressplus** flag. This can be used with **--wpuser**, **--wppassword**, **--wplang**, and **--sitetitle** to configure each of the settings normally set by wp-config.php.
 
 Running ols1clk
 --------
